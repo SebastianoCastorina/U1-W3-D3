@@ -29,7 +29,8 @@ myList.appendChild(newContainer)
  const sbarro = document.querySelectorAll('.par')
 sbarro.forEach( p => {
    p.addEventListener('click', () =>{
-       par.style.textDecorationLine = "line-through"
+    console.log(p)
+       p.style.textDecorationLine = "line-through"
    })
 }
 ) 
